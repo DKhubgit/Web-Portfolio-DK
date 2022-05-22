@@ -1,0 +1,40 @@
+
+/* Variables */
+:root {
+--contrast-color: rgba(84, 90, 79, 0.938);
+}
+
+* {
+    padding: 7px;
+}
+
+body {
+    background-color: rgb(114, 184, 141);
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 70px;
+    background-color: var(--contrast-color);
+    color: white;
+}
+
+h1 {
+    font-size: 300%;
+    padding: 10px;
+}
+nav {
+    width: 600px;
+}
+
+nav ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+li {
+    font-size: 30px;
+}
