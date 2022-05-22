@@ -4,6 +4,7 @@
 :root {
 --contrast-color: rgba(84, 90, 79, 0.938);
 --secondary-contrast-color: white;
+--primary-color: rgb(114, 184, 141);
 }
 
 * {
@@ -12,8 +13,14 @@
 }
 
 body {
-    background-color: rgb(114, 184, 141);
+    background-color: var(--primary-color);
 }
+
+/* main {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+} */
 
 
 /* Header Bar CSS properties */
@@ -43,6 +50,7 @@ nav ul {
 
 li {
     font-size: 30px;
+    color: var(--secondary-contrast-color);
 }
 
 a {
@@ -54,3 +62,26 @@ a:hover {
     color: rgb(189, 186, 186);
 }
 
+
+/* CSS properties for each section box I create*/
+section {
+    background-color: var(--contrast-color);
+    padding: 40px;
+    margin-bottom: 30px;
+    margin-left: 100px;
+    margin-right: 100px;
+    
+}
+
+h2 {
+    color: var(--secondary-contrast-color);
+    font-size: 30px;
+    text-align: center;
+    text-decoration: underline;
+    margin-bottom: 10px;
+}
+
+p {
+    color: var(--secondary-contrast-color);
+    text-align: center;
+}
