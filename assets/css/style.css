@@ -8,7 +8,7 @@
 }
 
 * {
-    padding: 7px;
+    padding: 0px;
     font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
@@ -35,7 +35,7 @@ header {
 
 h1 {
     font-size: 300%;
-    padding: 3px;
+    padding: 10px;
 }
 
 nav {
@@ -46,6 +46,8 @@ nav ul {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+    align-items: flex-end;
+    height: 55px;
 }
 
 li {
@@ -70,18 +72,66 @@ section {
     margin-bottom: 30px;
     margin-left: 100px;
     margin-right: 100px;
-    
 }
 
 h2 {
     color: var(--secondary-contrast-color);
-    font-size: 30px;
     text-align: center;
     text-decoration: underline;
+    font-size: 30px;
     margin-bottom: 10px;
 }
+
+
+/* about me section */
 
 p {
     color: var(--secondary-contrast-color);
     text-align: center;
+    font-size: 150%;
+    height: 250px;
+}
+
+
+/* Portfolio section */
+
+h3 {
+    position: absolute;
+    color: var(--secondary-contrast-color);
+    background-color: rgba(77, 150, 8, 0.938);
+    top: 20px;
+    height: 35px;
+    width: 125px;
+}
+
+.content-box {
+    display: flex;
+    /* flex-wrap: wrap; */
+    flex-direction: row;
+    justify-content: space-evenly;
+    height: 300px;
+}
+
+/* Use media query to change the content-box to flex wrap once it hits a certain width */
+
+.second-content-box {
+    display: flex;
+    flex-direction: row;
+    /* flex-wrap: wrap; */
+    justify-content: space-evenly;
+    border: 2px dotted black;
+}
+
+.small-box {
+    position: relative;
+    border: 2px dotted black;
+    width: 200px;
+    margin-right: 15px;
+}
+
+#larger-box {
+    position: relative;
+    border: 2px dotted black;
+    width: 800px;
+    margin-right: 15px;
 }
