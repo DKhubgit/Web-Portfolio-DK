@@ -110,17 +110,15 @@ h3 {
 .content-box {
     display: flex;
     flex-wrap: wrap;
+    flex-direction: row;
     justify-content: center;
     align-items: center;
     height: 300px;
 }
 
-/* Use media query to change the content-box to flex wrap once it hits a certain width */
-
 .second-content-box {
     display: flex;
     flex-direction: row;
-    /* flex-wrap: wrap; */
     justify-content: space-evenly;
 }
 
@@ -135,7 +133,7 @@ h3 {
     background-size: cover;
 }
 
-#larger-box {
+.larger-box {
     position: relative;
     width: 1000px;
     height: 400px;
@@ -151,11 +149,42 @@ article:hover {
     border: 3px solid black;
 }
 
-/* Contact me section */
+/* Use media query to change the content-box to 
+    flex wrap once it hits a certain width */
 
-/* #box-contact-me ul {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-} */
+@media screen and (max-width: 1870px) {
+
+    #box-portfolio {
+        height: 1000px;
+    }
+
+    .larger-box {
+        width: 90%;
+    }
+
+    .second-content-box {
+        flex-wrap: wrap;
+        width: 90%;
+    }
+
+    .small-box {
+        margin-bottom: 20px;
+    }
+
+    body {
+        min-height: 2500px;
+    }
+    
+}
+
+
+/* When the 4 smaller boxes wrap into a columns, 
+adjusts the content box's height to fit the boxes */
+
+@media screen and (max-width: 1400px) {
+    #box-portfolio {
+        height: 1400px;
+    }
+}
+
 
