@@ -145,7 +145,7 @@ h3 {
     background-size: cover;
 }
 
-article:hover {
+.small-box:hover, .larger-box:hover {
     border: 3px solid black;
 }
 
