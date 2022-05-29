@@ -14,20 +14,15 @@
 
 body {
     background-color: var(--primary-color);
+    min-height: 1800px;
 }
-
-/* main {
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-} */
-
 
 /* Header Bar CSS properties */
 header {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    margin-bottom: 50px;
     height: 70px;
     background-color: var(--contrast-color);
     color: var(--secondary-contrast-color);
@@ -66,11 +61,11 @@ a:hover {
 }
 
 
-/* CSS properties set for each section box I create*/
+/* CSS properties set for each section I create*/
 section {
     background-color: var(--contrast-color);
     padding: 40px;
-    margin-bottom: 30px;
+    margin-bottom: 50px;
     margin-left: 100px;
     margin-right: 100px;
 }
@@ -80,7 +75,7 @@ h2 {
     text-align: center;
     text-decoration: underline;
     font-size: 30px;
-    margin-bottom: 10px;
+    margin-bottom: 30px;
 }
 
 
@@ -97,7 +92,7 @@ p {
 /* Portfolio section */
 
 #box-portfolio {
-    height: 700px;
+    height: 800px;
 }
 
 h3 {
@@ -127,34 +122,40 @@ h3 {
     flex-direction: row;
     /* flex-wrap: wrap; */
     justify-content: space-evenly;
-    /* border: 2px dotted black; */
 }
 
 .small-box {
     position: relative;
-    /* border: 2px dotted black; */
     width: 400px;
     height: 200px;
     margin-right: 15px;
     border-radius: 25px;
     background-image: url("../images/cool-background-apps.png");
     background-repeat: no-repeat;
-    background-size: 100%;
+    background-size: cover;
 }
 
 #larger-box {
     position: relative;
-    /* border: 2px dotted black; */
-    width: 800px;
-    height: 300px;
+    width: 1000px;
+    height: 400px;
     margin-right: 15px;
     margin-bottom: 20px;
     border-radius: 25px;
     background-image: url("../images/cool-background-app1.png");
     background-repeat: no-repeat;
-    background-size: 100%;
+    background-size: cover;
 }
 
 article:hover {
     border: 3px solid black;
 }
+
+/* Contact me section */
+
+/* #box-contact-me ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+} */
+
