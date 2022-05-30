@@ -60,6 +60,12 @@ a:hover {
     color: rgb(124, 83, 83);
 }
 
+#portfolio-pic {
+    position: absolute;
+    left: 300px;
+    top: 5px;
+}
+
 
 /* CSS properties set for each section I create*/
 section {
@@ -150,7 +156,7 @@ h3 {
 }
 
 /* Use media query to change the content-box to 
-    flex wrap once it hits a certain width */
+    flex wrap once it hits a certain viewport width */
 
 @media screen and (max-width: 1870px) {
 
