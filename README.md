@@ -1,5 +1,5 @@
 # Web-Portfolio-DK
-Website Portfolio showcasing my applications for potential employers
+Website Portfolio showcasing my applications for potential employers.
 
 ## User Story
 AS AN employer
@@ -26,3 +26,14 @@ THEN I am taken to that deployed application
 
 WHEN I resize the page or view the site on various screens and devices
 THEN I am presented with a responsive layout that adapts to my viewport
+
+## Remarks
+
+**Note**: Click on the Name to reload to html file.
+
+Credits to [Coolers.io](https://coolors.co/palettes/trending) for the colors ideas.
+Credits to [Coolbackground.io](https://coolbackgrounds.io/) for the background images.
+Credits to [PNGEGG](https://www.pngegg.com/en/search?q=avatars) for the cool avatar.
+
+GitHub: [Web-Portfolio-DK](https://github.com/DKhubgit/Web-Portfolio-DK)
+GitHub Pages: [https://dkhubgit.github.io/Web-Portfolio-DK/](https://dkhubgit.github.io/Web-Portfolio-DK/)
