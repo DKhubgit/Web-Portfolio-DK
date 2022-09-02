@@ -156,7 +156,6 @@ h3 {
 }
 
 #projectOne {
-    position: relative;
     background-image: url("../images/Project1-screenshot.PNG");
     background-repeat: no-repeat;
     background-size: cover;
