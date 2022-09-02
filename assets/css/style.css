@@ -141,7 +141,7 @@ h3 {
 
 .larger-box {
     position: relative;
-    background-image: url("../images/Project1-screenshot.PNG");
+    background-image: url("../images/Fat-Birds-screenshot.PNG");
     background-repeat: no-repeat;
     background-size: cover;
     width: 1000px;
@@ -153,6 +153,13 @@ h3 {
 
 .small-box:hover, .larger-box:hover {
     border: 3px solid black;
+}
+
+#projectOne {
+    position: relative;
+    background-image: url("../images/Project1-screenshot.PNG");
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 /* Use media query to change the content-box to 
